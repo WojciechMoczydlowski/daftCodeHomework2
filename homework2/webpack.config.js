@@ -38,8 +38,8 @@ module.exports = {
                     { loader: 'postcss-loader', options: { sourceMap: isProduction } },
                     { loader: 'sass-loader', options: { sourceMap: isProduction } },
                 ]
-            }
-        ]
+            },
+        ],
     },
     plugins: [
         new MiniCssExtractPlugin({
