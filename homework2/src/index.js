@@ -1,7 +1,7 @@
-import './styles/style.css'
-import 'normalize.css'; 
-import './styles/main.sass'
+import './styles/css/normalize.css'; 
+import './styles/css/style.css'
+import './styles/main.scss'
 
-import myScript from './js/script';
 
-myScript();
+
+//import myScript from './js/script';
