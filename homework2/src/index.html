@@ -2,65 +2,106 @@
 <html>
 
 <head>
-  <meta charset="UTF-8">
-  <title>Webpack App</title>
+    <meta charset="UTF-8">
+    <title>Webpack App</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
 
 <body>
-  <script type="text/javascript" src="main.js"></script>
-  <div class="page">
-    <div class=mainContent>
-      <header>
-        <div class = "logo">d'inks</div>
-      </header>
-      <nav class = "mainNav">
-        <ul class = "mainNavlist">
-          <li class = "mainNavlist__item mainNavList__item--highlighted">Beer</li>
-          <li class = "mainNavList__item">Coffee / Tea</li>
-          <li class = "mainNavList__item">Cocktail</li>
-          <li class = "mainNavList__item">Cocoa</li>
-          <li class = "mainNavList__item">Milk/Float/Shake</li>
-          <li class = "mainNavList__item">Shot</li>
-          <li class = "mainNavList__item">Punch/Party/Drink</li>
-          <li class = "mainNavList__item">Homemade Liqueur</li>
-        </ul>
-      </nav>
-      <main>
-          <figure class="drinkImg">
-              <img src="./img/bijou.jpg" alt="/bijou.jpg"/>
-              <figcaption class="drinkImg__caption">bijou</figcaption>
-          </figure>
-          <figure class="drinkImg">
-              <img src="../src/img/eggnogg.jpg" alt="eggnogg.jpg"/>
-              <figcaption>eggnog</figcaption>
-          </figure>
-          <figure class="drinkImg">
-              <img src="../src/img/mojito.jpg" alt="mojito.jpg"/>
-              <figcaption class="drinkImg__caption">mojito</figcaption>
-          </figure>
-          <figure class="drinkImg">
-              <img src="../src/img/negroni.jpg" alt="negroni.jpg"/>
-              <figcaption>negroni</figcaption>
-          <figure>
-            <figure class="drinkImg">
-              <img src="../src/img/rattlesnake.jpg" alt="rattlesnake.jpg"/>
-              <figcaption class="drinkImg__caption">rattlesnake</figcaption>
-          </figure>
-          <figure class="drinkImg">
-              <img src="../src/img/zinger.jpg" alt="zinger.jpg"/>
-              <figcaption class="drinkImg__caption">zinger</figcaption>
-          </figure>
+    <script type="text/javascript" src="main.js"></script>
+    <div class="page">
+        <div class="pageContent">
+            <header>
+                <div class="logo">d'inks</div>
+            </header>
+            <div class=navMainWrapper>
+                <nav class="mainNav">
+                    <ul class="mainNavList">
+                        <li class="mainNavList__item mainNavList__item--active">Beer</li>
+                        <li class="mainNavList__item">Coffee / Tea</li>
+                        <li class="mainNavList__item">Cocktail</li>
+                        <li class="mainNavList__item">Cocoa</li>
+                        <li class="mainNavList__item">Milk/Float/Shake</li>
+                        <li class="mainNavList__item">Shot</li>
+                        <li class="mainNavList__item">Punch/Party/Drink</li>
+                        <li class="mainNavList__item">Homemade Liqueur</li>
+                    </ul>
+                </nav>
+                <main class="drinkContent">
 
-      </main>
-    </div>
-    <footer class ="mainFooter">
-        <div class = "email">   </div>
-        <div class="socialMedia">
-            <div class = "socialMedia__item"></div>
-            <div class = "socialMedia__item"></div>
-            <div class = "socialMedia__item"></div>
+                    <figure class="drinkImg">
+                        <img class="drinkImg__image" src="./img/bijou.jpg" alt="/bijou.jpg" />
+                        <figcaption class="drinkImg__caption">Bijou</figcaption>
+                    </figure>
+                    <figure class="drinkImg">
+                        <img class="drinkImg__image drinkImg__image--active" src="../src/img/negroni.jpg"
+                            alt="negroni.jpg" />
+                        <figcaption class="drinkImg__caption">Negron</figcaption>
+                    </figure>
+                    <figure class="drinkImg">
+                        <img class="drinkImg__image" src="../src/img/mojito.jpg" alt="mojito.jpg" />
+                        <figcaption class="drinkImg__caption">Mojito</figcaption>
+                    </figure>
+                    <figure class="drinkImg">
+                        <img class="drinkImg__image" src="../src/img/rattlesnake.jpg" alt="rattlesnake.jpg" />
+                        <figcaption class="drinkImg__caption">Texas Rattlesnake</figcaption>
+                    </figure>
+
+                    <figure class="drinkImg">
+                        <img class="drinkImg__image" src="../src/img/eggnogg.jpg" alt="eggnogg.jpg" />
+                        <figcaption class="drinkImg__caption">Egg Nog</figcaption>
+                    </figure>
+                    <figure class="drinkImg">
+                        <img class="drinkImg__image" src="../src/img/zinger.jpg" alt="zinger.jpg" />
+                        <figcaption class="drinkImg__caption">Zinger</figcaption>
+                    </figure>
+                    <figure class="drinkImg">
+                        <img class="drinkImg__image" src="./img/bijou.jpg" alt="/bijou.jpg" />
+                        <figcaption class="drinkImg__caption">Bijou</figcaption>
+                    </figure>
+                    <figure class="drinkImg">
+                        <img class="drinkImg__image" src="../src/img/negroni.jpg" alt="negroni.jpg" />
+                        <figcaption class="drinkImg__caption">Negron</figcaption>
+                    </figure>
+                    <figure class="drinkImg">
+                        <img class="drinkImg__image" src="../src/img/mojito.jpg" alt="mojito.jpg" />
+                        <figcaption class="drinkImg__caption">Mojito</figcaption>
+                    </figure>
+                    <figure class="drinkImg">
+                        <img class="drinkImg__image" src="../src/img/rattlesnake.jpg" alt="rattlesnake.jpg" />
+                        <figcaption class="drinkImg__caption">Texas Rattlesnake</figcaption>
+                    </figure>
+
+                    <figure class="drinkImg">
+                        <img class="drinkImg__image" src="../src/img/eggnogg.jpg" alt="eggnogg.jpg" />
+                        <figcaption class="drinkImg__caption">Egg Nog</figcaption>
+                    </figure>
+                    <figure class="drinkImg">
+                        <img class="drinkImg__image" src="../src/img/zinger.jpg" alt="zinger.jpg" />
+                        <figcaption class="drinkImg__caption">Zinger</figcaption>
+                    </figure>
+                </main>
+
+            </div>
+
         </div>
-    </footer>
-  </div>
+        <footer class="mainFooter">
+            <div class="email">Say hello! - hi@dinks.com </div>
+            <div class="socialMedia">
+                <div class="socialMedia__caption">Follow us</div>
+                <div class="socialMedia__item">
+                    <i class="fab fa-facebook-f"></i>
+                </div>
+                <div class="socialMedia__item">
+                    <i class="fab fa-instagram"></i>
+                </div>
+                <div class="socialMedia__item">
+                    <i class="fab fa-dribbble"></i>
+                </div>
+            </div>
+        </footer>
+    </div>
 </body>
+
 </html>

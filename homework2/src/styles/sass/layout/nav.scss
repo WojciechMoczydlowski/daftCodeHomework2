@@ -1,0 +1,21 @@
+.mainNav{
+    margin-bottom:30px;
+    padding: 0;
+}
+
+.mainNavList{
+    padding: 0;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    &__item{
+        cursor: pointer;
+        color:#BED2CF;
+     }
+
+     &__item--active{
+         color:black;
+         border-bottom: 1px solid black;
+     }
+}

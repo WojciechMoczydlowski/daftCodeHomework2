@@ -1,0 +1,23 @@
+.mainFooter{
+    padding:20px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+.socialMedia{
+    display: flex;
+    flex-direction: row;
+    &__caption{
+        padding-right:10px;
+    }
+    &__item{
+        padding-right:10px;
+    }
+   
+}
+
+// .email{
+
+
+// }
